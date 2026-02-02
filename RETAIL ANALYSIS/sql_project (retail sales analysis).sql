@@ -1,6 +1,10 @@
 -- sql project sales analysis
--- creating the table
 
+--Creating the database
+create database p1_retail_db;
+use p1_retail_db;
+
+-- creating the table
 create table retail_sales 
 (
 	transactions_id	int primary key,
@@ -13,14 +17,23 @@ create table retail_sales
 	quantity	int,
 	price_per_unit float ,	
 	cogs float,
-	total_sale float
+	total_sale float -- best practice use decimal rather than float
 ); 
+
 
 select * 
 from retail_sales;
 
 select count (*)
 from retail_sales;
+
+SELECT
+	 COUNT(DISTINCT customer_id) 
+FROM retail_sales;
+
+SELECT
+	DISTINCT category 
+FROM retail_sales;
 
 -- Data cleaning 
 
@@ -72,9 +85,6 @@ from retail_sales;
 
 
 -- number of male coustomer
-
-select * 
-from retail_sales;
 select 
 	count (gender)
 from retail_sales

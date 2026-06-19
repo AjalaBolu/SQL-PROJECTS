@@ -10,12 +10,12 @@ Every project folder has its own README with the dataset schema, the full list o
 
 | Project | Dataset | Focus | Link |
 |---|---|---|---|
-| 🛒 Amazon E-Commerce Analysis | Amazon order/sales data | Advanced multi-table joins, CTEs, and aggregation across 11 business problems | [View](./AMAZON%20ANALYSIS) |
-| 📚 Library Management Analysis | Books, members, branches, issued/return status (6 related tables, ERD included) | Relational schema design and multi-table query logic | [View](./LIBARY%20ANALYSIS) |
-| 🎬 Netflix Content Analysis | Netflix titles dataset | Window functions, CTEs, string parsing (`unnest`, `split_part`) across 15 business problems | [View](./NETFLIX%20ANALYSIS) |
-| 🏬 Retail Sales Analysis | Retail sales transactions | Aggregation logic, GROUP BY granularity, business-question framing | [View](./RETAIL%20ANALYSIS) |
-| 🎧 Spotify + YouTube Engagement | Cross-platform track engagement data | Window functions (`RANK`, `LAG`), subqueries, period-over-period analysis across 14 queries | [View](./SPOTIFY%20ANALYSIS) |
-| 🍽️ Zomato Restaurant Analysis | Food delivery dataset | Data cleaning (Python/Pandas), JOIN behavior, business-question SQL | [View](./ZOMAO%20RESTURANTS%20ANALYSIS) |
+| 🛒 Amazon E-Commerce Analysis | Amazon order/sales data | Advanced multi-table joins, CTEs, and aggregation across 11 business problems | [View](./amazon-analysis) |
+| 📚 Library Management Analysis | Books, members, branches, issued/return status (6 related tables, ERD included) | Relational schema design and multi-table query logic | [View](./library-analysis) |
+| 🎬 Netflix Content Analysis | Netflix titles dataset | Window functions, CTEs, string parsing (`unnest`, `split_part`) across 15 business problems | [View](./netflix-analysis) |
+| 🏬 Retail Sales Analysis | Retail sales transactions | Aggregation logic, GROUP BY granularity, business-question framing | [View](./retail-analysis) |
+| 🎧 Spotify + YouTube Engagement | Cross-platform track engagement data | Window functions (`RANK`, `LAG`), subqueries, period-over-period analysis across 14 queries | [View](./spotify-analysis) |
+| 🍽️ Zomato Restaurant Analysis | Food delivery dataset | Data cleaning (Python/Pandas), JOIN behavior, business-question SQL | [View](./zomato-restaurant-analysis) |
 | ☕ Coffee Sales Analysis | Multi-table coffee sales schema | Window functions, joins, CTEs across progressively harder business problems | *In progress* |
 
 ---
